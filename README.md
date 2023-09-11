@@ -1,17 +1,13 @@
-# Chat Stream 	🔀
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/rpggio/obsidian-chat-stream?style=for-the-badge&sort=semver) [![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&query=%24%5B%22chat-stream%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json&style=for-the-badge)](https://obsidian.md/plugins?search=chat%20stream)
+# Obsidian Canvas Mapping
 
-An Obsidian plugin for conversing with GPT AI via canvas notes. Ancestor notes/files are included in the chat context. You can quickly create chat streams, and control what other notes are sent to the AI.
+An Obsidian plugin for conversing with Generative Model (ChatGPT) via canvas notes. Ancestor notes/files are included in the chat context. 
 
-<img src="static/chat-stream-example.gif"/>
+You can quickly create chat streams, and control what other notes are sent to the model by connecting the node. The response from the model is then broken down to help for efficient mapping.  
+
 
 ## Install
 
-Install as [community plugin](https://obsidian.md/plugins?search=chat%20stream#)
-
-Or, add `rpggio/obsidian-chat-stream` to [BRAT](https://github.com/TfTHacker/obsidian42-brat).
-
-Chat Stream is supported only on desktop.
+- Not available in Community Plugins.
 
 ## Setup
 
@@ -32,6 +28,7 @@ AI notes are colored purple, and tagged with `chat_role=assistant` in the canvas
 	pnpm install
 	```
 2. In Obsidian, install and enable [hot reload plugin](https://github.com/pjeby/hot-reload)
+
 3. Create symbolic link from this project dir to an Obsidian store 
    ```
 	ln -s . your-obsidian-store/.obsidian/plugins/chat-stream
@@ -48,8 +45,4 @@ Changes to code should automatically be loaded into Obsidian.
 
 * Canvas plugin code from [Canvas MindMap](https://github.com/Quorafind/Obsidian-Canvas-MindMap)
 
-## Say thanks
-
-If you love it you can send me a [coffee thumbs-up](https://bmc.link/ryanp) so I know folks find it useful.
-
-<a href="https://www.buymeacoffee.com/ryanp"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=ryanp&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" /></a>
+* ChatStream code from [Obsidian Chat Stream](https://github.com/rpggio/obsidian-chat-stream)
