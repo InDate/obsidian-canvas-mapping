@@ -1,9 +1,6 @@
 # Obsidian Canvas Mapping
 
-An Obsidian plugin for conversing with Generative Model (ChatGPT) via canvas notes. Ancestor notes/files are included in the chat context. 
-
-You can quickly create chat streams, and control what other notes are sent to the model by connecting the node. The response from the model is then broken down to help for efficient mapping.  
-
+If you find yourself wishing you had more control over what your sending to ChatGPT, so that you can carefully craft the perfect story, book, paper, song, whatever - then this plugin is for you. Using the Canvas within Obisidan, you can quickly create maps through simple questions. From the mapping, you can then control what notes are sent to the model by updating which of them are connected. All responses from the model are then processed and added as more notes. This is to help you more efficiently map out ideas, stay in control of the context and stay in your favourite app, Obsidian.  
 
 ## Install
 
@@ -37,7 +34,7 @@ AI notes are colored purple, and tagged with `chat_role=assistant` in the canvas
 	```
 	pnpm run dev
 	```
-5. In Obsidian, enable Chat Stream Plugin and add OpenAI key in plugin settings.
+5. In Obsidian, enable Canvas Mapping Plugin and add OpenAI key in plugin settings.
 
 Changes to code should automatically be loaded into Obsidian.
 

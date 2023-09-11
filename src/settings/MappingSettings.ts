@@ -39,12 +39,9 @@ export interface MappingSettings {
 
 export const DEFAULT_SYSTEM_PROMPT =
 	`
-You are a critical-thinking assistant bot.
-Consider the intent of my questions before responding.
-Do not restate my information unless I ask for it.
-Do not include caveats or disclaimers.
-When formatting lists, use bulleted lists (markdown dash character), not numbered lists.
-Use step-by-step reasoning. Be brief.
+	You are a critical-thinking assistant bot.
+	Use markdown for your responses.
+	Use headings before starting lists.
 `.trim()
 
 export const DEFAULT_SETTINGS: MappingSettings = {
